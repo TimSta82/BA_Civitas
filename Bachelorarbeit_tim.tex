@@ -1,0 +1,112 @@
+
+
+%---------------------------------------------------------------------------------------------------
+% Voreinstellungen (Layout, neue Befehle, etc.)
+%---------------------------------------------------------------------------------------------------
+
+\input{einstellungen/grundeinstellungen}															% Die stilistischen Parameter
+
+%--------------------------------------------------------------------------------------------------- 
+% Anfang des Schriftstücks
+%---------------------------------------------------------------------------------------------------	
+\begin{document}
+
+%--------------------------------------------------------------------------------------------------- 
+% Erstellen des Deck- und des Titelblatts
+%---------------------------------------------------------------------------------------------------
+		
+	\createCoverAndTitlePage{Bachelor}																			% Art der Arbeit
+													{thesis}																			% Bezeichnung arbeit oder thesis 
+													{Tim Staats}														% Author
+													{Praxissemester bei portrix.net GmbH}											  % Titel				
+													{Informations- und Elektrotechnik}						% Studiengang
+													{Prof.\ Dr.\ rer. \ nat. Henning Dierks}					% Erstgutachter
+													{Prof.\ Dr.\ Klaus Jünemann}
+			% Zweitgutachter
+													
+% - -------------------------------------------------------------------------
+  \createAbstract					{Bachelor}												%							% Art der Arbeit
+													{thesis}								%											% Bezeichnung arbeit oder thesis 
+													{Tim Staats}					%							% Author
+													{Weiterentwicklung einer Geodatenbasierten Multi-Nutzer Android App für historische Monumente}											  % Titel				
+													{Extending an Android App for a Multi-user Geodatabase of Historical Monuments}							
+													% Titel Englisch
+													{Java, Android, Webapplication, Backendless, Geodaten, Nutzerservice, historische Monumente, Google Map, BaaS}																	% Stichworte
+													{Java, Android, Webapplication, Backendless, Geodata, Userservice, historical monuments, google map, Baas}																			% Keywords (Stichworte Emglisch)
+													{Diese Arbeit dokumentiert die Weiterentwicklung einer Android Applikation. Die App bietet registrierten Nutzern die Möglichkeit historische Monumente zu erfassen und zu katalogisieren. Des  Weiteren visualisiert die App die katalogisierten Daten auf eine google Map und in Form von detailierten Listen. Im dazugehörigen Backend werden die Daten verwaltet und in einer Web Applikation visualisiert. Die dafür erforderlichen Maßnahmen, Konzepte, Probleme und deren Lösungen werden im folgenden beschrieben.
+}																					% Kurzzusammenfassung
+													{This thesis documents the development of an Android Application. The app offers the opportunity to registered users to capture and catalog historical Monuments. Furthermore the app displays the data within a google map and in form of a detailed list. The corresponding Backend manages the data and also display it within a webapplication. The necessary measures, concepts, problems and their solutions are described below.}																			% Abstract (Kurzzusammenfassung Englisch)
+
+												
+%--------------------------------------------------------------------------------------------------- 
+% Zusammenfassung
+%---------------------------------------------------------------------------------------------------			
+  									  													
+
+
+%--------------------------------------------------------------------------------------------------- 
+% Danksagung  
+%---------------------------------------------------------------------------------------------------	
+	%\input{standard/danke}  																							
+
+%--------------------------------------------------------------------------------------------------- 
+% Verzeichnisse
+%---------------------------------------------------------------------------------------------------	
+  \tableofcontents                              												% Inhaltsverzeichnis
+	%\listoftables                                 												% Tabellenverzeichnis
+	%\listoffigures                                												% Abbildungsverzeichnis  
+	
+%--------------------------------------------------------------------------------------------------- 
+% Der erste Teil der Arbeit:
+%---------------------------------------------------------------------------------------------------
+	\input{chapter/Introduction/Introduction.tex}
+	
+%---------------------------------------------------------------------------------------------------	
+% Der zweite Teil der Arbeit:
+%---------------------------------------------------------------------------------------------------
+	\input{chapter/Mainpart/Mainpart.tex}
+
+%---------------------------------------------------------------------------------------------------
+% Der dritte Teil der Arbeit
+%---------------------------------------------------------------------------------------------------
+	\input{chapter/Endpart/Summary.tex}
+														
+%---------------------------------------------------------------------------------------------------	
+% Literaturverzeichnis
+%---------------------------------------------------------------------------------------------------		
+  \bibliographystyle{IEEEtranN}   % was dinat        		    														% Anpassung an deutsche Zitierweise
+                                          														% Alphabetische Sortierung, Abkürzungen
+  \bibliography{literatur/literatur}    %KAY: WAR DRINNEN   														% Literaturverzeichnis
+%  \input{literatur/literatur}			 %KAY: WAR DRINNEN   																		% hier können alle Schriftstücke aufgeführt werden, die nicht zitiert, aber dennoch nennenswert sind!
+  
+
+											
+
+%---------------------------------------------------------------------------------------------------	
+% Anhänge
+%---------------------------------------------------------------------------------------------------	
+	\appendix  							%KAY: WAR DRINNEN   
+	  	\input{chapter/Endpart/Appendix.tex}
+% \input{anhang/hilfsmittel/hilfsmittel}															% Anhang A: Hilfsmittel zur Erstellung
+																																			% 					dieser Arbeit
+%	\input{anhang/quellcode/quellcode}																	% Anhang B: Quellcode
+
+%---------------------------------------------------------------------------------------------------	
+% Glossar
+%---------------------------------------------------------------------------------------------------	
+	\printnomenclature
+
+%---------------------------------------------------------------------------------------------------	
+% Stichwortverzeichnis
+%---------------------------------------------------------------------------------------------------	
+	\printindex
+	
+%---------------------------------------------------------------------------------------------------	
+% Erklärung über Selbstständigkeit
+%---------------------------------------------------------------------------------------------------		
+	\asurency	
+
+%--------------------------------------------------------------------------------------------------- 
+% Ende des Schriftstücks
+%--------------------------------------------------------------------------------------------------- 
+\end{document}

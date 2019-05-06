@@ -1,0 +1,97 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}% 
+\contentsline {chapter}{\numberline {2}Theory}{7}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Basics of Electric Guitars}{7}{section.2.1}% 
+\contentsline {subsubsection}{\nonumberline Guitar Components}{7}{section*.4}% 
+\contentsline {subsubsection}{\nonumberline Frequency Range}{9}{section*.5}% 
+\contentsline {section}{\numberline {2.2}Basics of Audio Engineering}{9}{section.2.2}% 
+\contentsline {subsubsection}{\nonumberline Acoustical Level}{9}{section*.6}% 
+\contentsline {subsubsection}{\nonumberline Voltage Bridging}{10}{section*.7}% 
+\contentsline {subsubsection}{\nonumberline Balanced and Unbalanced transmission}{12}{section*.8}% 
+\contentsline {subsubsection}{\nonumberline Line Level}{12}{section*.9}% 
+\contentsline {subsubsection}{\nonumberline Instrument Level}{13}{section*.10}% 
+\contentsline {subsubsection}{\nonumberline Analog Audio Connectors}{14}{section*.11}% 
+\contentsline {section}{\numberline {2.3}Raspberry Pi and Audio-HAT}{15}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Digital Signal Processing}{16}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Digital Signals}{17}{subsection.2.4.1}% 
+\contentsline {subsubsection}{\nonumberline Sampling}{17}{section*.12}% 
+\contentsline {subsubsection}{\nonumberline Quantization}{18}{section*.13}% 
+\contentsline {subsubsection}{\nonumberline Discrete Fourier transform}{18}{section*.14}% 
+\contentsline {subsection}{\numberline {2.4.2}Digital Systems}{19}{subsection.2.4.2}% 
+\contentsline {subsubsection}{\nonumberline Impulse Response}{19}{section*.15}% 
+\contentsline {subsubsection}{\nonumberline Transfer Function}{20}{section*.16}% 
+\contentsline {section}{\numberline {2.5}Guitar Effects}{21}{section.2.5}% 
+\contentsline {subsection}{\numberline {2.5.1}Delay}{22}{subsection.2.5.1}% 
+\contentsline {subsection}{\numberline {2.5.2}Distortion}{23}{subsection.2.5.2}% 
+\contentsline {subsubsection}{\nonumberline Linear Distortion}{24}{section*.17}% 
+\contentsline {subsubsection}{\nonumberline Nonlinear Distortion}{25}{section*.18}% 
+\contentsline {subsubsection}{\nonumberline Total Harmonic Distortion}{25}{section*.19}% 
+\contentsline {chapter}{\numberline {3}Requirements}{27}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Hardware}{27}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Software}{27}{section.3.2}% 
+\contentsline {chapter}{\numberline {4}Design}{29}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Hardware}{29}{section.4.1}% 
+\contentsline {subsection}{\numberline {4.1.1}Case}{29}{subsection.4.1.1}% 
+\contentsline {subsection}{\numberline {4.1.2}Preamp Module}{29}{subsection.4.1.2}% 
+\contentsline {subsection}{\numberline {4.1.3}User Interface Module}{31}{subsection.4.1.3}% 
+\contentsline {subsubsection}{\nonumberline Display}{31}{section*.20}% 
+\contentsline {subsubsection}{\nonumberline Buttons and Switch}{31}{section*.21}% 
+\contentsline {subsubsection}{\nonumberline Rotary Encoders}{31}{section*.22}% 
+\contentsline {subsection}{\numberline {4.1.4}Power Supply}{32}{subsection.4.1.4}% 
+\contentsline {section}{\numberline {4.2}Software}{33}{section.4.2}% 
+\contentsline {subsubsection}{\nonumberline Operating System}{33}{section*.23}% 
+\contentsline {subsubsection}{\nonumberline Programming Language}{33}{section*.24}% 
+\contentsline {subsubsection}{\nonumberline Integrated Development Environment}{34}{section*.25}% 
+\contentsline {chapter}{\numberline {5}Implementation}{35}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Hardware Realisation}{35}{section.5.1}% 
+\contentsline {subsection}{\numberline {5.1.1}Preamp Module}{35}{subsection.5.1.1}% 
+\contentsline {subsubsection}{\nonumberline Power Supply and Interfaces}{36}{section*.26}% 
+\contentsline {subsubsection}{\nonumberline Voltage Gain}{37}{section*.27}% 
+\contentsline {subsubsection}{\nonumberline Voltage Bridging}{38}{section*.28}% 
+\contentsline {subsubsection}{\nonumberline Frequency Response}{38}{section*.29}% 
+\contentsline {subsubsection}{\nonumberline PCB Design}{39}{section*.30}% 
+\contentsline {subsection}{\numberline {5.1.2}User Interface Module}{42}{subsection.5.1.2}% 
+\contentsline {subsubsection}{\nonumberline Rotary Encoders and Buttons}{42}{section*.31}% 
+\contentsline {subsubsection}{\nonumberline Display}{43}{section*.32}% 
+\contentsline {subsubsection}{\nonumberline PCB Design}{44}{section*.33}% 
+\contentsline {subsection}{\numberline {5.1.3}Construction of complete Unit}{45}{subsection.5.1.3}% 
+\contentsline {subsubsection}{\nonumberline Wiring of Power Supply}{45}{section*.34}% 
+\contentsline {subsubsection}{\nonumberline Wiring of Signals}{46}{section*.35}% 
+\contentsline {subsubsection}{\nonumberline Front Panel}{47}{section*.36}% 
+\contentsline {section}{\numberline {5.2}Software Realisation}{48}{section.5.2}% 
+\contentsline {subsection}{\numberline {5.2.1}Audio Signal Processing}{49}{subsection.5.2.1}% 
+\contentsline {subsubsection}{\nonumberline Clean}{49}{section*.37}% 
+\contentsline {subsubsection}{\nonumberline Delay}{49}{section*.38}% 
+\contentsline {subsubsection}{\nonumberline Distortion}{51}{section*.39}% 
+\contentsline {subsection}{\numberline {5.2.2}User Interaction}{54}{subsection.5.2.2}% 
+\contentsline {chapter}{\numberline {6}Test}{57}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Preamp Module Performance}{57}{section.6.1}% 
+\contentsline {subsubsection}{\nonumberline Instrument Level to Line Level}{57}{section*.40}% 
+\contentsline {subsubsection}{\nonumberline Line Level to Instrument Level}{58}{section*.41}% 
+\contentsline {subsubsection}{\nonumberline Frequency Response}{59}{section*.42}% 
+\contentsline {subsubsection}{\nonumberline Total Harmonic Distortion plus Noise}{60}{section*.43}% 
+\contentsline {subsubsection}{\nonumberline Hearable Results}{61}{section*.44}% 
+\contentsline {section}{\numberline {6.2}Measurement of Guitar Effects}{61}{section.6.2}% 
+\contentsline {subsection}{\numberline {6.2.1}Delay}{62}{subsection.6.2.1}% 
+\contentsline {subsubsection}{\nonumberline Time Parameter}{63}{section*.45}% 
+\contentsline {subsubsection}{\nonumberline Decay Parameter}{63}{section*.46}% 
+\contentsline {subsubsection}{\nonumberline Level Parameter}{63}{section*.47}% 
+\contentsline {subsubsection}{\nonumberline Hearable Results}{64}{section*.48}% 
+\contentsline {subsection}{\numberline {6.2.2}Distortion}{64}{subsection.6.2.2}% 
+\contentsline {subsubsection}{\nonumberline Clipping Thresholds}{64}{section*.49}% 
+\contentsline {subsubsection}{\nonumberline THD+N}{66}{section*.50}% 
+\contentsline {subsubsection}{\nonumberline Hearable Results}{68}{section*.51}% 
+\contentsline {section}{\numberline {6.3}Maximum Latency}{68}{section.6.3}% 
+\contentsline {chapter}{\numberline {7}Summary}{70}{chapter.7}% 
+\contentsline {subsubsection}{\nonumberline Outlook}{70}{section*.52}% 
+\contentsline {chapter}{\numberline {A}Appendix}{71}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}Attached CD}{71}{section.A.1}% 
+\contentsline {section}{\numberline {A.2}Total Schematic of Effect Unit}{72}{section.A.2}% 
+\contentsline {section}{\numberline {A.3}Delay Effect Measurements}{73}{section.A.3}% 
+\contentsline {subsubsection}{\nonumberline Influence of Time Parameter}{73}{section*.53}% 
+\contentsline {subsubsection}{\nonumberline Influence of Decay Parameter}{76}{section*.54}% 
+\contentsline {subsubsection}{\nonumberline Influence of Level Parameter}{79}{section*.55}% 
+\contentsline {section}{\numberline {A.4}Distortion Effect Measurements}{83}{section.A.4}% 
