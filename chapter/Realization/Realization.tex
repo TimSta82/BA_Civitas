@@ -16,9 +16,9 @@ Backendless provides the server data to the app when it is requested. This happe
 Independently which data is needed, an asynchronous Backendless request requires the implemention of two interface methods. The asyncCallback methods "handleResponse()" and "handleFault()" are recommended to keep the main thread free and increasing the application performance. "handleFault()" is called if something went wrong. "handleResponse()" is called if the request was successful and provides the requested data.
 
 \subsubsection{User table}
-With Backendless one can create data tables with ease. The user table should contain certain properties such as name, email and password. To get a table like that one calls the Backendless.UserService.register() and pass a BackendlessUser object as argument.
+With Backendless one can create data tables with ease. The user table should contain certain properties such as name, email and password. To get a table like that one calls the Backendless.UserService.register() method and pass a BackendlessUser object as argument.
 
-An exemplary interaction between app and backendless is displayed here in case of user registration.
+An exemplary interaction between app and the Backendless server is displayed here in case of user registration.
 
 \fbox{
 \lstinputlisting[label={code:backendless_register} ,caption={Backendless user registration},captionpos=b, language = java,  numbers = left]{program/backendless_register.java}
@@ -108,17 +108,35 @@ The user table contains the same properties like the BackendlessUser object \ref
 
 \begin{figure}[H]
 	\centering \includegraphics[width=0.8\textwidth]{backendless_console_user_table.png}
-	\caption[backendlessConsoleUserTable]{Backendless console user table}
+	\caption[Backendless console user table]{Backendless console user table}
 	\label{fig:backendlessConsoleUserTable}
 \end{figure}
-\footnotetext{URL: https://www.banksy.org [cited 22 August 2018]}
 
 \subsubsection{Artefact table}
 contains app Table
 contains system data
+\begin{figure}[H]
+	\centering \includegraphics[width=0.8\textwidth]{backendless_console_artefact_table.png}
+	\caption[Backendless console artefact table]{Backendless console artefact table}
+	\label{fig:backendlessConsoleArtefactTable}
+\end{figure}
+
+
 \subsection{Files}
 images and audios
+\begin{figure}[H]
+	\centering \includegraphics[width=0.8\textwidth]{backendless_console_files.png}
+	\caption[Backendless console files]{Backendless console files folder}
+	\label{fig:backendlessConsoleFiles}
+\end{figure}
+
 \subsection{Geolocation}
 displays artefact coordinates
+
+\begin{figure}[H]
+	\centering \includegraphics[width=0.8\textwidth]{backendless_console_geolocation.png}
+	\caption[Backendless console geolocation]{Backendless console geolocation folder}
+	\label{fig:backendlessConsoleGeolocation}
+\end{figure}
 
 ich realisiere!
