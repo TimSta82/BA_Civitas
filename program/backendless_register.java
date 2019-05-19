@@ -1,3 +1,9 @@
+BackendlessUser user = new BackendlessUser();
+user.setEmail(email);
+user.setPassword(password);
+// for adding columns to backendless, use setProperty like below
+user.setProperty("name", name);
+
 Backendless.UserService.register(user, new AsyncCallback<BackendlessUser>() {
 	@Override
 	public void handleResponse(BackendlessUser response) {
