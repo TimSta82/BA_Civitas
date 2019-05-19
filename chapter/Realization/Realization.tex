@@ -3,7 +3,11 @@
 %---------------------------------------------------------------------------------------------------
 \newpage
 %\part{Anfang}
-\chapter{Realization}\label{cap:Realization}
+\chapter{Realization}
+\label{cap:Realization}
+Beschreibt den Prozess des programmierens der App, die Probleme dabei und die dazugehörigen Lösungen.
+
+\section{Android}
 \subsection{Application Class}
 An Application Class is called before the MainActivity is called for the first time. Due to the usage of Backendless (BaaS) the applicationId, Api Key and the serverUrl are stored in the ApplicationClass and connects the Webapplication with the Android Application. It also contains variables for the user credentials saved in the Backendless.user table and the Artefact table. 
 
@@ -23,6 +27,27 @@ An exemplary interaction between app and backendless is displayed here in case o
 The method handleResponse() returns to the LoginFragment, waiting for the user to login. From now on the user table is listed within the Backendless console (Webapplication) \ref{fig:backendlessConsoleUserTable}.
 
 
+\subsubsection{Artefact table}
+contains artefact data
+
+\begin{figure}[H]
+	\centering \includegraphics[width=0.8\textwidth]{banksy.jpg}
+	\caption[ArtefactTable]{Artefact Table\footnotemark}
+	\label{fig:Banksy}
+\end{figure}
+\footnotetext{URL: https://www.banksy.org [cited 22 August 2018]}
+
+
+\subsection{MainActivity}
+The MainActivity is the starting point of this application. It contains two Fragments, Login and Register. 
+
+\begin{figure}[H]
+	\centering \includegraphics[width=0.8\textwidth]{banksy.jpg}
+	\caption[MainActivity]{Activity flow of MainActivity\footnotemark}
+	\label{fig:MainActivity}
+\end{figure}
+\footnotetext{URL: https://www.banksy.org [cited 22 August 2018]}
+
 \subsubsection{LoginFragment}
 This Fragment is the first view which appears to the user. It provides three possibilities. 
 \begin{itemize}
@@ -41,6 +66,33 @@ The Login progress is displayed here.
 }
 
 A basic Backendless request implements two methods, handleResponse() and handleFault(). If request is successful, the response contains the user data. This data is stored in the Applicationclass.user for further purpose.
+
+\subsubsection{RegisterFragment}
+
+\subsection{Map}
+
+\begin{figure}[H]
+	\centering \includegraphics[width=0.8\textwidth]{banksy.jpg}
+	\caption[MapActivity]{Activity flow of MapActivity\footnotemark}
+	\label{fig:MapActivity}
+\end{figure}
+\footnotetext{URL: https://www.banksy.org [cited 22 August 2018]}
+
+\subsection{ArtefactActivity}
+
+\begin{figure}[H]
+	\centering \includegraphics[width=0.8\textwidth]{banksy.jpg}
+	\caption[ArtefactActivity]{Activity flow of ArtefactActivity\footnotemark}
+	\label{fig:MainActivity}
+\end{figure}
+\footnotetext{URL: https://www.banksy.org [cited 22 August 2018]}
+
+\subsubsection{ListFragment}
+\subsubsection{ArtefactDetailFragment}
+\subsubsection{NewArtefactFragment}
+\subsubsection{EditArtefactFragment}
+
+\subsection{ImpressumActivity}
 
 % --------------------------------------------------------------------------------------------------
 % webapplication
