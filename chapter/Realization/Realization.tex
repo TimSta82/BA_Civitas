@@ -23,12 +23,25 @@ An exemplary interaction between app and backendless is displayed here in case o
 The method handleResponse() returns to the LoginFragment, waiting for the user to login. From now on the user table is listed within the Backendless console (Webapplication) \ref{fig:backendlessConsoleUserTable}.
 
 
+\subsubsection{LoginFragment}
+This Fragment is the first view which appears to the user. It provides three possibilities. 
+\begin{itemize}
+\item Login
+\item Register
+\item Password recovery
+\end{itemize}
+The first step for a new user is moving to the RegisterFragment via button click.
+If the registration is accomplished, one can login or reset password.
+Successful login leads to the Map, which is the main part of the application. It keeps the user logged in until the logout button is clicked, hence the next time Civitas is started it navigates directly to the Map.
+
+The Login progress is displayed here. 
 
 \fbox{
-\lstinputlisting[label={code:backendless_register} ,caption={Backendless user registration},captionpos=b, language = java,  numbers = left]{program/backendless_register.java}
+\lstinputlisting[label={code:backendless_login} ,caption={Backendless user login},captionpos=b, language = java,  numbers = left]{program/backendless_login.java}
 }
 
-In case of handleResponse() the app returns to the LoginFragment, waiting for the user to login. From now on the user table is listed within the Backendless console (Webapplication) \ref{fig:backendlessConsoleUserTable}.
+A basic Backendless request implements two methods, handleResponse() and handleFault(). If request is successful, the response contains the user data. This data is stored in the Applicationclass.user for further purpose.
+
 
 
 
