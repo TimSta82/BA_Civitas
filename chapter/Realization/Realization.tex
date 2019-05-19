@@ -7,4 +7,13 @@
 \subsection{Application Class}
 An Application Class is called before the MainActivity is called for the first time. Due to the usage of Backendless (BaaS) the applicationId, Api Key and the serverUrl are stored in the ApplicationClass and connects the Webapplication with the Android Application. It also contains variables for the user credentials saved in the Backendless.user table and the Artefact table. 
 
+\subsection{Backendless}
+Backendless provides the server data to the app when it is requested. This happens in case of registration, login, artefact creation, file upload, file download, geolocating marker, edit artefact, etc.
+Independently which data is needed, a Backendless request requires the implemention of two interface methods. "handleResponse()" and "handleFault()". "handleFault()" is called if something went wrong. "handleResponse()" is called if the request was successful and provides the requested data. 
+An exemplary interaction between app and backendless is displayed here in case of User login.
+
+\fbox{
+\lstinputlisting[label={code:backendless_login} ,caption={Backendless user login},captionpos=b, language = java,  numbers = left]{program/backendless_login.java}
+}
+
 ich realisiere!
