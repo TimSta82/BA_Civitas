@@ -16,4 +16,15 @@ An exemplary interaction between app and backendless is displayed here in case o
 \lstinputlisting[label={code:backendless_login} ,caption={Backendless user login},captionpos=b, language = java,  numbers = left]{program/backendless_login.java}
 }
 
+\subsubsection{User table}
+With Backendless one can create data tables with ease. The user table should contain certain properties such as name, email and password. To get a table like that one calls the userService.register() method like follows:
+
+\fbox{
+\lstinputlisting[label={code:backendless_register} ,caption={Backendless user registration},captionpos=b, language = java,  numbers = left]{program/backendless_register.java}
+}
+
+In case of handleResponse() the app returns to the LoginFragment, waiting for the user to login. From now on the user table is listed within the Backendless console (Webapplication) \ref{fig:backendlessConsoleUserTable}.
+
+
+
 ich realisiere!
