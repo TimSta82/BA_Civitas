@@ -9,15 +9,20 @@ An Application Class is called before the MainActivity is called for the first t
 
 \subsection{Backendless}
 Backendless provides the server data to the app when it is requested. This happens in case of registration, login, artefact creation, file upload, file download, geolocating marker, edit artefact, etc.
-Independently which data is needed, a Backendless request requires the implemention of two interface methods. "handleResponse()" and "handleFault()". "handleFault()" is called if something went wrong. "handleResponse()" is called if the request was successful and provides the requested data. 
-An exemplary interaction between app and backendless is displayed here in case of User login.
-
-\fbox{
-\lstinputlisting[label={code:backendless_login} ,caption={Backendless user login},captionpos=b, language = java,  numbers = left]{program/backendless_login.java}
-}
+Independently which data is needed, an asynchronous Backendless request requires the implemention of two interface methods. The asyncCallback methods "handleResponse()" and "handleFault()" are recommended to keep the main thread free and increasing the application performance. "handleFault()" is called if something went wrong. "handleResponse()" is called if the request was successful and provides the requested data.
 
 \subsubsection{User table}
-With Backendless one can create data tables with ease. The user table should contain certain properties such as name, email and password. To get a table like that one calls the userService.register() method like follows:
+With Backendless one can create data tables with ease. The user table should contain certain properties such as name, email and password. To get a table like that one calls the Backendless.UserService.register() and pass a BackendlessUser object as argument.
+
+An exemplary interaction between app and backendless is displayed here in case of user registration.
+
+\fbox{
+\lstinputlisting[label={code:backendless_register} ,caption={Backendless user registration},captionpos=b, language = java,  numbers = left]{program/backendless_register.java}
+}
+
+The method handleResponse() returns to the LoginFragment, waiting for the user to login. From now on the user table is listed within the Backendless console (Webapplication) \ref{fig:backendlessConsoleUserTable}.
+
+
 
 \fbox{
 \lstinputlisting[label={code:backendless_register} ,caption={Backendless user registration},captionpos=b, language = java,  numbers = left]{program/backendless_register.java}
