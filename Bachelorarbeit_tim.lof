@@ -1,0 +1,62 @@
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {ngerman}{}
+\babel@toc {english}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Popular apps with list overview}}{18}{figure.caption.8}% 
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Backendless pricing plan\relax }}{20}{figure.caption.12}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces User use-cases\relax }}{26}{figure.caption.13}% 
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Activity flow diagram\relax }}{27}{figure.caption.14}% 
+\contentsline {figure}{\numberline {3.3}{\ignorespaces User class diagram\relax }}{28}{figure.caption.15}% 
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Register timing diagram\relax }}{30}{figure.caption.16}% 
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Login timing diagram\relax }}{31}{figure.caption.17}% 
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Reset password timing diagram\relax }}{33}{figure.caption.18}% 
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Artefact class diagram\relax }}{37}{figure.caption.19}% 
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Design create artefact}}{38}{figure.caption.21}% 
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Design delete artefact}}{41}{figure.caption.23}% 
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Filter activity diagram\relax }}{44}{figure.caption.24}% 
+\contentsline {figure}{\numberline {3.11}{\ignorespaces User information timing diagram\relax }}{46}{figure.caption.25}% 
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Backendless API overview\relax }}{48}{figure.caption.27}% 
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Admin control panel dashboard\relax }}{51}{figure.caption.29}% 
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Admin control panel data management\relax }}{52}{figure.caption.31}% 
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Admin control panel files section\relax }}{53}{figure.caption.33}% 
+\contentsline {figure}{\numberline {3.16}{\ignorespaces Admin control panel geolocation section\relax }}{53}{figure.caption.35}% 
+\contentsline {figure}{\numberline {3.17}{\ignorespaces Admin control panel email template\relax }}{54}{figure.caption.37}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Login screen\relax }}{57}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Register screen\relax }}{57}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.3}{\ignorespaces User management\relax }}{57}{figure.caption.38}% 
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Request password\relax }}{58}{figure.caption.39}% 
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Progress indicator\relax }}{58}{figure.caption.39}% 
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Password management\relax }}{58}{figure.caption.39}% 
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Clear password text\relax }}{59}{figure.caption.40}% 
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Login empty field hints\relax }}{59}{figure.caption.40}% 
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Password management\relax }}{59}{figure.caption.40}% 
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Map with marker info window opened\relax }}{60}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Map with unfolded filter menu\relax }}{60}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Civitas map\relax }}{60}{figure.caption.42}% 
+\contentsline {figure}{\numberline {4.13}{\ignorespaces New artefact fragment\relax }}{62}{figure.caption.43}% 
+\contentsline {figure}{\numberline {4.14}{\ignorespaces Artefact with input\relax }}{62}{figure.caption.43}% 
+\contentsline {figure}{\numberline {4.15}{\ignorespaces Progress information\relax }}{62}{figure.caption.43}% 
+\contentsline {figure}{\numberline {4.16}{\ignorespaces Create new artefact\relax }}{62}{figure.caption.43}% 
+\contentsline {figure}{\numberline {4.17}{\ignorespaces ArtefactListFragment}}{63}{figure.caption.44}% 
+\contentsline {figure}{\numberline {4.21}{\ignorespaces Delete dialog}}{65}{figure.caption.46}% 
+\contentsline {figure}{\numberline {4.22}{\ignorespaces Editing an artefact}}{65}{figure.caption.46}% 
+\contentsline {figure}{\numberline {4.23}{\ignorespaces Manipulating artefacts\relax }}{65}{figure.caption.46}% 
+\contentsline {figure}{\numberline {4.24}{\ignorespaces Imprint}}{66}{figure.caption.47}% 
+\contentsline {figure}{\numberline {4.25}{\ignorespaces Navigation Drawer\relax }}{68}{figure.caption.48}% 
+\contentsline {figure}{\numberline {4.18}{\ignorespaces User is artefact owner\relax }}{70}{figure.caption.45}% 
+\contentsline {figure}{\numberline {4.19}{\ignorespaces User is not artefact owner\relax }}{70}{figure.caption.45}% 
+\contentsline {figure}{\numberline {4.20}{\ignorespaces Artefact detail\relax }}{70}{figure.caption.45}% 
+\contentsline {figure}{\numberline {4.26}{\ignorespaces Artefact list filter menu\relax }}{71}{figure.caption.49}% 
+\contentsline {figure}{\numberline {4.27}{\ignorespaces Map filter menu\relax }}{71}{figure.caption.49}% 
+\contentsline {figure}{\numberline {4.28}{\ignorespaces Filter general\relax }}{71}{figure.caption.49}% 
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Successful unit test}}{73}{figure.caption.50}% 
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Android Studio emulator overview}}{74}{figure.caption.51}% 
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }

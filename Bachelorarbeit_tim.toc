@@ -2,96 +2,73 @@
 \babel@toc {ngerman}{}
 \babel@toc {ngerman}{}
 \babel@toc {english}{}
-\contentsline {chapter}{\numberline {1}Introduction}{6}{chapter.1}% 
-\contentsline {chapter}{\numberline {2}Theory}{7}{chapter.2}% 
-\contentsline {section}{\numberline {2.1}Basics of Electric Guitars}{7}{section.2.1}% 
-\contentsline {subsubsection}{\nonumberline Guitar Components}{7}{section*.4}% 
-\contentsline {subsubsection}{\nonumberline Frequency Range}{9}{section*.5}% 
-\contentsline {section}{\numberline {2.2}Basics of Audio Engineering}{9}{section.2.2}% 
-\contentsline {subsubsection}{\nonumberline Acoustical Level}{9}{section*.6}% 
-\contentsline {subsubsection}{\nonumberline Voltage Bridging}{10}{section*.7}% 
-\contentsline {subsubsection}{\nonumberline Balanced and Unbalanced transmission}{12}{section*.8}% 
-\contentsline {subsubsection}{\nonumberline Line Level}{12}{section*.9}% 
-\contentsline {subsubsection}{\nonumberline Instrument Level}{13}{section*.10}% 
-\contentsline {subsubsection}{\nonumberline Analog Audio Connectors}{14}{section*.11}% 
-\contentsline {section}{\numberline {2.3}Raspberry Pi and Audio-HAT}{15}{section.2.3}% 
-\contentsline {section}{\numberline {2.4}Digital Signal Processing}{16}{section.2.4}% 
-\contentsline {subsection}{\numberline {2.4.1}Digital Signals}{17}{subsection.2.4.1}% 
-\contentsline {subsubsection}{\nonumberline Sampling}{17}{section*.12}% 
-\contentsline {subsubsection}{\nonumberline Quantization}{18}{section*.13}% 
-\contentsline {subsubsection}{\nonumberline Discrete Fourier transform}{18}{section*.14}% 
-\contentsline {subsection}{\numberline {2.4.2}Digital Systems}{19}{subsection.2.4.2}% 
-\contentsline {subsubsection}{\nonumberline Impulse Response}{19}{section*.15}% 
-\contentsline {subsubsection}{\nonumberline Transfer Function}{20}{section*.16}% 
-\contentsline {section}{\numberline {2.5}Guitar Effects}{21}{section.2.5}% 
-\contentsline {subsection}{\numberline {2.5.1}Delay}{22}{subsection.2.5.1}% 
-\contentsline {subsection}{\numberline {2.5.2}Distortion}{23}{subsection.2.5.2}% 
-\contentsline {subsubsection}{\nonumberline Linear Distortion}{24}{section*.17}% 
-\contentsline {subsubsection}{\nonumberline Nonlinear Distortion}{25}{section*.18}% 
-\contentsline {subsubsection}{\nonumberline Total Harmonic Distortion}{25}{section*.19}% 
-\contentsline {chapter}{\numberline {3}Requirements}{27}{chapter.3}% 
-\contentsline {section}{\numberline {3.1}Hardware}{27}{section.3.1}% 
-\contentsline {section}{\numberline {3.2}Software}{27}{section.3.2}% 
-\contentsline {chapter}{\numberline {4}Design}{29}{chapter.4}% 
-\contentsline {section}{\numberline {4.1}Hardware}{29}{section.4.1}% 
-\contentsline {subsection}{\numberline {4.1.1}Case}{29}{subsection.4.1.1}% 
-\contentsline {subsection}{\numberline {4.1.2}Preamp Module}{29}{subsection.4.1.2}% 
-\contentsline {subsection}{\numberline {4.1.3}User Interface Module}{31}{subsection.4.1.3}% 
-\contentsline {subsubsection}{\nonumberline Display}{31}{section*.20}% 
-\contentsline {subsubsection}{\nonumberline Buttons and Switch}{31}{section*.21}% 
-\contentsline {subsubsection}{\nonumberline Rotary Encoders}{31}{section*.22}% 
-\contentsline {subsection}{\numberline {4.1.4}Power Supply}{32}{subsection.4.1.4}% 
-\contentsline {section}{\numberline {4.2}Software}{33}{section.4.2}% 
-\contentsline {subsubsection}{\nonumberline Operating System}{33}{section*.23}% 
-\contentsline {subsubsection}{\nonumberline Programming Language}{33}{section*.24}% 
-\contentsline {subsubsection}{\nonumberline Integrated Development Environment}{34}{section*.25}% 
-\contentsline {chapter}{\numberline {5}Implementation}{35}{chapter.5}% 
-\contentsline {section}{\numberline {5.1}Hardware Realisation}{35}{section.5.1}% 
-\contentsline {subsection}{\numberline {5.1.1}Preamp Module}{35}{subsection.5.1.1}% 
-\contentsline {subsubsection}{\nonumberline Power Supply and Interfaces}{36}{section*.26}% 
-\contentsline {subsubsection}{\nonumberline Voltage Gain}{37}{section*.27}% 
-\contentsline {subsubsection}{\nonumberline Voltage Bridging}{38}{section*.28}% 
-\contentsline {subsubsection}{\nonumberline Frequency Response}{38}{section*.29}% 
-\contentsline {subsubsection}{\nonumberline PCB Design}{39}{section*.30}% 
-\contentsline {subsection}{\numberline {5.1.2}User Interface Module}{42}{subsection.5.1.2}% 
-\contentsline {subsubsection}{\nonumberline Rotary Encoders and Buttons}{42}{section*.31}% 
-\contentsline {subsubsection}{\nonumberline Display}{43}{section*.32}% 
-\contentsline {subsubsection}{\nonumberline PCB Design}{44}{section*.33}% 
-\contentsline {subsection}{\numberline {5.1.3}Construction of complete Unit}{45}{subsection.5.1.3}% 
-\contentsline {subsubsection}{\nonumberline Wiring of Power Supply}{45}{section*.34}% 
-\contentsline {subsubsection}{\nonumberline Wiring of Signals}{46}{section*.35}% 
-\contentsline {subsubsection}{\nonumberline Front Panel}{47}{section*.36}% 
-\contentsline {section}{\numberline {5.2}Software Realisation}{48}{section.5.2}% 
-\contentsline {subsection}{\numberline {5.2.1}Audio Signal Processing}{49}{subsection.5.2.1}% 
-\contentsline {subsubsection}{\nonumberline Clean}{49}{section*.37}% 
-\contentsline {subsubsection}{\nonumberline Delay}{49}{section*.38}% 
-\contentsline {subsubsection}{\nonumberline Distortion}{51}{section*.39}% 
-\contentsline {subsection}{\numberline {5.2.2}User Interaction}{54}{subsection.5.2.2}% 
-\contentsline {chapter}{\numberline {6}Test}{57}{chapter.6}% 
-\contentsline {section}{\numberline {6.1}Preamp Module Performance}{57}{section.6.1}% 
-\contentsline {subsubsection}{\nonumberline Instrument Level to Line Level}{57}{section*.40}% 
-\contentsline {subsubsection}{\nonumberline Line Level to Instrument Level}{58}{section*.41}% 
-\contentsline {subsubsection}{\nonumberline Frequency Response}{59}{section*.42}% 
-\contentsline {subsubsection}{\nonumberline Total Harmonic Distortion plus Noise}{60}{section*.43}% 
-\contentsline {subsubsection}{\nonumberline Hearable Results}{61}{section*.44}% 
-\contentsline {section}{\numberline {6.2}Measurement of Guitar Effects}{61}{section.6.2}% 
-\contentsline {subsection}{\numberline {6.2.1}Delay}{62}{subsection.6.2.1}% 
-\contentsline {subsubsection}{\nonumberline Time Parameter}{63}{section*.45}% 
-\contentsline {subsubsection}{\nonumberline Decay Parameter}{63}{section*.46}% 
-\contentsline {subsubsection}{\nonumberline Level Parameter}{63}{section*.47}% 
-\contentsline {subsubsection}{\nonumberline Hearable Results}{64}{section*.48}% 
-\contentsline {subsection}{\numberline {6.2.2}Distortion}{64}{subsection.6.2.2}% 
-\contentsline {subsubsection}{\nonumberline Clipping Thresholds}{64}{section*.49}% 
-\contentsline {subsubsection}{\nonumberline THD+N}{66}{section*.50}% 
-\contentsline {subsubsection}{\nonumberline Hearable Results}{68}{section*.51}% 
-\contentsline {section}{\numberline {6.3}Maximum Latency}{68}{section.6.3}% 
-\contentsline {chapter}{\numberline {7}Summary}{70}{chapter.7}% 
-\contentsline {subsubsection}{\nonumberline Outlook}{70}{section*.52}% 
-\contentsline {chapter}{\numberline {A}Appendix}{71}{appendix.A}% 
-\contentsline {section}{\numberline {A.1}Attached CD}{71}{section.A.1}% 
-\contentsline {section}{\numberline {A.2}Total Schematic of Effect Unit}{72}{section.A.2}% 
-\contentsline {section}{\numberline {A.3}Delay Effect Measurements}{73}{section.A.3}% 
-\contentsline {subsubsection}{\nonumberline Influence of Time Parameter}{73}{section*.53}% 
-\contentsline {subsubsection}{\nonumberline Influence of Decay Parameter}{76}{section*.54}% 
-\contentsline {subsubsection}{\nonumberline Influence of Level Parameter}{79}{section*.55}% 
-\contentsline {section}{\numberline {A.4}Distortion Effect Measurements}{83}{section.A.4}% 
+\contentsline {chapter}{\nonumberline List of Tables}{7}{chapter*.4}% 
+\contentsline {chapter}{\nonumberline List of Figures}{8}{chapter*.5}% 
+\contentsline {chapter}{\nonumberline Listings}{10}{chapter*.6}% 
+\contentsline {chapter}{\numberline {1}Introduction}{11}{chapter.1}% 
+\contentsline {section}{\numberline {1.1}Initial Situation}{11}{section.1.1}% 
+\contentsline {section}{\numberline {1.2}Criteria For Success}{11}{section.1.2}% 
+\contentsline {chapter}{\numberline {2}Analysis}{13}{chapter.2}% 
+\contentsline {section}{\numberline {2.1}Target Group}{13}{section.2.1}% 
+\contentsline {section}{\numberline {2.2}Tools}{13}{section.2.2}% 
+\contentsline {subsection}{\numberline {2.2.1}Android Studio}{13}{subsection.2.2.1}% 
+\contentsline {subsection}{\numberline {2.2.2}Java}{14}{subsection.2.2.2}% 
+\contentsline {subsection}{\numberline {2.2.3}XML}{14}{subsection.2.2.3}% 
+\contentsline {subsection}{\numberline {2.2.4}Git}{14}{subsection.2.2.4}% 
+\contentsline {section}{\numberline {2.3}Current Civitas App}{15}{section.2.3}% 
+\contentsline {section}{\numberline {2.4}Desired Result}{16}{section.2.4}% 
+\contentsline {subsection}{\numberline {2.4.1}Android App}{16}{subsection.2.4.1}% 
+\contentsline {subsubsection}{\nonumberline Artefact List Overview}{17}{section*.7}% 
+\contentsline {subsubsection}{\nonumberline Filter}{18}{section*.9}% 
+\contentsline {subsubsection}{\nonumberline Usability}{18}{section*.10}% 
+\contentsline {subsection}{\numberline {2.4.2}Back-end}{19}{subsection.2.4.2}% 
+\contentsline {chapter}{\numberline {3}Design}{22}{chapter.3}% 
+\contentsline {section}{\numberline {3.1}Application Fundamentals}{22}{section.3.1}% 
+\contentsline {section}{\numberline {3.2}Civitas - Android App}{25}{section.3.2}% 
+\contentsline {section}{\numberline {3.3}Use Cases}{25}{section.3.3}% 
+\contentsline {section}{\numberline {3.4}General Structure}{26}{section.3.4}% 
+\contentsline {section}{\numberline {3.5}User Management}{27}{section.3.5}% 
+\contentsline {subsection}{\numberline {3.5.1}User Register}{27}{subsection.3.5.1}% 
+\contentsline {subsection}{\numberline {3.5.2}User Login}{30}{subsection.3.5.2}% 
+\contentsline {subsection}{\numberline {3.5.3}Reset Password}{32}{subsection.3.5.3}% 
+\contentsline {section}{\numberline {3.6}Map}{33}{section.3.6}% 
+\contentsline {section}{\numberline {3.7}Artefact Management}{36}{section.3.7}% 
+\contentsline {subsection}{\numberline {3.7.1}Create Artefact}{36}{subsection.3.7.1}% 
+\contentsline {subsection}{\numberline {3.7.2}Artefact Detail}{38}{subsection.3.7.2}% 
+\contentsline {subsection}{\numberline {3.7.3}Edit Artefact}{39}{subsection.3.7.3}% 
+\contentsline {subsection}{\numberline {3.7.4}Delete Artefact}{40}{subsection.3.7.4}% 
+\contentsline {subsection}{\numberline {3.7.5}Rate Artefact}{41}{subsection.3.7.5}% 
+\contentsline {subsection}{\numberline {3.7.6}Artefact List Overview}{41}{subsection.3.7.6}% 
+\contentsline {section}{\numberline {3.8}Imprint}{43}{section.3.8}% 
+\contentsline {section}{\numberline {3.9}Common}{43}{section.3.9}% 
+\contentsline {subsection}{\numberline {3.9.1}Filter/Search Map/List}{44}{subsection.3.9.1}% 
+\contentsline {subsection}{\numberline {3.9.2}User Information}{45}{subsection.3.9.2}% 
+\contentsline {subsection}{\numberline {3.9.3}Screen Focus}{46}{subsection.3.9.3}% 
+\contentsline {section}{\numberline {3.10}Backendless}{48}{section.3.10}% 
+\contentsline {subsection}{\numberline {3.10.1}Back-end}{49}{subsection.3.10.1}% 
+\contentsline {subsection}{\numberline {3.10.2}Civitas - Web App}{50}{subsection.3.10.2}% 
+\contentsline {subsection}{\numberline {3.10.3}Admin Use Cases}{50}{subsection.3.10.3}% 
+\contentsline {chapter}{\numberline {4}Realization}{55}{chapter.4}% 
+\contentsline {section}{\numberline {4.1}Civitas - Android Application}{55}{section.4.1}% 
+\contentsline {section}{\numberline {4.2}User Management}{55}{section.4.2}% 
+\contentsline {section}{\numberline {4.3}Map}{56}{section.4.3}% 
+\contentsline {section}{\numberline {4.4}Artefact Management}{61}{section.4.4}% 
+\contentsline {subsection}{\numberline {4.4.1}Create Artefact}{61}{subsection.4.4.1}% 
+\contentsline {subsection}{\numberline {4.4.2}Artefact List}{62}{subsection.4.4.2}% 
+\contentsline {subsection}{\numberline {4.4.3}Artefact Detail}{64}{subsection.4.4.3}% 
+\contentsline {subsection}{\numberline {4.4.4}Edit/Delete Artefact}{64}{subsection.4.4.4}% 
+\contentsline {section}{\numberline {4.5}Imprint}{66}{section.4.5}% 
+\contentsline {section}{\numberline {4.6}Common}{67}{section.4.6}% 
+\contentsline {subsection}{\numberline {4.6.1}Navigation}{67}{subsection.4.6.1}% 
+\contentsline {subsection}{\numberline {4.6.2}Filter}{69}{subsection.4.6.2}% 
+\contentsline {chapter}{\numberline {5}Tests}{72}{chapter.5}% 
+\contentsline {section}{\numberline {5.1}Unit Test}{72}{section.5.1}% 
+\contentsline {section}{\numberline {5.2}Test Environment}{73}{section.5.2}% 
+\contentsline {chapter}{\numberline {6}Conclusion}{75}{chapter.6}% 
+\contentsline {section}{\numberline {6.1}Achievement}{75}{section.6.1}% 
+\contentsline {section}{\numberline {6.2}Known Bugs}{76}{section.6.2}% 
+\contentsline {section}{\numberline {6.3}Future Tasks}{76}{section.6.3}% 
+\contentsline {chapter}{\nonumberline Bibliography}{78}{chapter*.53}% 
+\contentsline {chapter}{\numberline {A}Appendix}{80}{appendix.A}% 
+\contentsline {section}{\numberline {A.1}GitHub Repository}{80}{section.A.1}% 
+\contentsline {section}{\numberline {A.2}Attached CD}{80}{section.A.2}% 

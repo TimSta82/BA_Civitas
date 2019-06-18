@@ -71,7 +71,7 @@
 \usepackage{float}
 \usepackage{amssymb}% http://ctan.org/pkg/amssymb
 \usepackage{pifont}% http://ctan.org/pkg/pifont
-\usepackage{subfigure} % Mehrere Bilder nebeneinander
+%\usepackage{subfigure} % Mehrere Bilder nebeneinander
 \usepackage{forloop} % Für Schleife im Anhang
 \usepackage{listings} % Quellcode
 \usepackage{color} % Syntax Highlighting Quellcode
@@ -103,7 +103,32 @@
 \ifdefined\SVG
 \usepackage{svg}																			% Für Vektorgrafiken
 \fi
+%---------------------------------------------------------------------------------------------------
+% von Tim Staats hinzugefügt:
+\usepackage{mdframed} % für box um listings
+\usepackage[markup=nocolor]{changes}
+%\usepackage[demo]{graphicx}
+\usepackage{caption}
+\usepackage{subcaption}
+%\usepackage{subfig}
+%\usepackage{beramoro}
+\definecolor{DarkPurple}{rgb}{0.4,0.1,0.4}
+\definecolor{DarkCyan}{rgb}{0.0,0.5,0.4}
+\definecolor{LightLime}{rgb}{0.3,0.5,0.4}
+\definecolor{Blue}{rgb}{0.0,0.0,1.0}
+\lstdefinestyle{MeinStyle}
+{
+language=Java,
+columns=flexible,
+showstringspaces=false,
+basicstyle=\footnotesize\ttfamily,
+keywordstyle=\bfseries\color{DarkPurple},
+commentstyle=\itshape\color{LightLime},
+stringstyle=\color{Blue}
+}
 
+
+% Tim Staats ende
 %---------------------------------------------------------------------------------------------------
  \usepackage{graphicx}                                 % Zur Einbindung von PDF-Bildern
  \usepackage[colorlinks,															 % Einstellen und Laden des Hyperref-Pakets

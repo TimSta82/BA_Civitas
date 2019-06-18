@@ -4,29 +4,56 @@
 \newpage
 %\part{Anfang}
 \chapter{Conclusion}\label{cap:Conclusion}
-ich fasse zusammen
-\section{Furthermore}
-On the one hand there is a working app with a lot of functions such as. 
+
+\section{Achievement}
+This study was dedicated to the phases of software development for the Civitas project. Doing the analysis, design, realization and test phase, end up in the conclusion. The decision of recreating the app from scratch has made the biggest impact into the process. So it is a question for future developer if it was worth it. To sum up, a working Android application with a lot of additional features was achieved. The following table facilitates the comparison between criteria for success and the achieved outcome.
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|c|}
+\hline
+\textbf{Criteria for success} & \multicolumn{1}{l|}{\textbf{Achievement}} \\ \hline
+List overview for artefacts   & x                                         \\ \hline
+Improved filter search        & 1/2                                       \\ \hline
+Rating system for artefacts   & -                                         \\ \hline
+Password reset                & x                                         \\ \hline
+Increased usability           & x                                         \\ \hline
+Admin control panel           & x                                         \\ \hline
+\end{tabular}
+\label{tab:comparison}
+\caption{Compare criteria for success with achievements}
+\end{table}
+
+Inserting a list overview for artefacts heads to another dimension in the filter search. Unfortunately, the parameter for the artefact owner is not implemented yet. Due to its complexity some bugs are known too. The goal is to eliminate these bugs until the colloquium for this bachelorthesis took place.
+
+A major achievement is not listed in this table, because it is no feature. Nevertheless, it is worth mentioning. Replacing the previous \textbf{REST} back-end architecture with the \textbf{BaaS} by Backendless, guarantees an easy entrance to the Civitas project for the next developer. So if anyone will continue this Civitas project in the future, it is easy as plug and play, because it is just an Android Studio project.
+Regrettably, the project has experienced regression in some cases too. At the time the development process was finished, the audio description recording feature for artefacts and the possibility to save more than one image for an artefact was not implementend. 
+
+\section{Known Bugs}
+However, a few bugs and faults appear in the Civitas app, at the point the development process was terminated in order to create this document. The current developer tries to remove these until the colloquium was hold. Here is a list of currently known bugs and faults:
 \begin{itemize}
-\item Navigation through the app
-\item Screen returns to last focus
-\item Webapplication for administrational purpose (admin control panel)
-\item Password recovery
-\item List overview
-\item Complex filter system within list and map
-\item Create artefacts (everybody)
-\item Edit artefacts (authorized users)
-\item Delete artefacts (authorized users)
+\item Missing Internet Permission Request
+\item Filtering System
+\item Location enable/disable
+\item Artefact Retrieval
 \end{itemize}
-But on the flip side of things, there is still a lot of work to do.
+
+\section{Future Tasks}
+On the one hand, there is a working Android app with a lot of functions. On the other hand, as always in the software development, the deeper you are in the matter, the more things you notice. Therefore, here are some suggestions for future tasks the next developer can consider.
+
 \begin{itemize}
-\item MP3
+\item Swipe refresh method to update list of artefacts
+\item Report artefact for abuse
+\item Audio description recording for artefacts
 \item Share
+\item Replace radio buttons with check boxes to allow searching with one or more filter parameters
 \item Rating system
 \item Thumbnail within marker info window
 \item Edit user credentials
 \item Multiple image related to a single artefact
 \item Comment function for artefacts
 \item Retrieve artefacts in relation to the device location
-
+\item Push notification for certain events
 \end{itemize}
+
+There is a web application acting as an admin control panel too. These parts are connected by Backendless. So, one can think about, how to optimze the crossplay of these parts get the maximum output. 
